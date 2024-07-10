@@ -1,16 +1,59 @@
-# todo
+# SimpleTodo
 
-A new Flutter project.
+SimpleTodo is a simple and intuitive to-do list application built with Flutter. This app allows users to add, delete, and mark tasks as completed, helping them manage their daily tasks efficiently.
+
+## Features
+
+- Add new tasks
+- Delete tasks
+- Mark tasks as completed
+- Intuitive user interface
+
+
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+### Prerequisites
 
-A few resources to get you started if this is your first Flutter project:
+- [Flutter](https://flutter.dev/docs/get-started/install) 2.0.0 or higher
+- [Dart](https://dart.dev/get-dart)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Installation
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. **Clone the repository:**
+
+    ```sh
+    git clone https://github.com/aparna240/To-do-list.git
+    cd To-do-list/todo
+    ```
+
+2. **Install dependencies:**
+
+    ```sh
+    flutter pub get
+    ```
+
+3. **Run the app:**
+
+    - **Android Emulator:**
+
+        ```sh
+        flutter emulators --launch <emulator_id>
+        flutter run
+        ```
+
+    - **iOS Simulator:**
+
+        ```sh
+        open -a Simulator
+        flutter run
+        ```
+
+    - **Real Device:**
+
+        Connect your device via USB and run:
+
+        ```sh
+        flutter run
+        ```
+
